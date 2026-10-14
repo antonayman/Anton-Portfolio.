@@ -1,10 +1,11 @@
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
 import { useState } from "react";
-import { Menu, X, Home, User, Code, Briefcase, Mail } from "lucide-react";
+import { Menu, X, Home, User, Code, Briefcase, Mail, GraduationCap } from "lucide-react";
 
 const navItems = [
   { name: "Home", href: "#home", icon: Home },
   { name: "About", href: "#about", icon: User },
+  { name: "Education", href: "#education", icon: GraduationCap },
   { name: "Skills", href: "#skills", icon: Code },
   { name: "Projects", href: "#projects", icon: Briefcase },
   { name: "Contact", href: "#contact", icon: Mail },
